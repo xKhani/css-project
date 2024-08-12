@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.upper-part, .middle-part1 , .middle-part2, .lower-part{
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 70px;
+  
+}
+.middle-part2{
+    background-color: #e5e7eb;
+    padding-top:70px ;
+}
+.middle-part1, .lower-part{
+    background-color: white;
+    padding-top:30px ;
+}
+.lower-part{
+    padding-top:70px ;
+}
+.upper-part, .footer{
+    background-color: #1f2937;
+}
+.img-above img{
+    height: 260px;
+    width: 500px;
+    display: flex;
+    flex-shrink: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: antiquewhite;
+
+}
+.txt1 h1 {
+    font-size: 48px;
+    font-weight:bolder;
+}
+.txt1 p {
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.links {
+    display: flex;
+    gap : 25px;
+}
+.upper-content {
+    display: flex;
+    gap : 30px;
+    justify-content: center;
+    color: aliceblue;
+    
+}
+.mp1-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 10px;
+    
+}
+.boxes-conatiner {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.box {
+    text-align: center;
+    margin: 30px;
+
+}
+.box div {
+    font-size: 18px;
+}
+.box img{
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+
+.txt1 button , .lp-content button{
+    background-color: #3882f6;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.txt1 button {
+    border: 0;
+    padding: 8px 25px;
+}
+.mp2-content h2 {
+    font-size: 40px; 
+    font-weight:bold ;
+    font-style: italic;
+    color: grey;
+}
+.mp2-content p {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: end;
+}
+.lp-content {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #3882f6;
+    border-radius: 15px;
+    padding: 30px;
+    
+}
+.l-content {
+    color: white;
+}
+.lp-content button{
+    border-color: white;
+    border-style:solid;
+    padding: 10px 45px;
+    font-size: 20px;   
+}
+.footer{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
